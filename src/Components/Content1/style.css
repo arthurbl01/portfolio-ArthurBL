@@ -7,6 +7,10 @@ body {
     background-repeat: no-repeat;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .content1 {
     margin-bottom: -5px;
 }

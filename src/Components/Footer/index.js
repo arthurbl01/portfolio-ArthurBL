@@ -19,7 +19,7 @@ class Footer extends Component {
     render() {
         return (
             <div>
-                <section className="footer">
+                <section className="footer" id="footer">
                     <div className="container">
                         <h1 className="titulo-contato">Contato</h1>
                         <h3 className="sub-titulo-contato">Aqui você pode entrar em contato  comigo </h3>
