@@ -5,9 +5,7 @@ import fundo2 from '../../Assets/f2-fundo.png'
 class Content1 extends Component {
 
     curriculo() {
-       
-        document.getElementById("btn-curriculo").target = "_blank";
-        document.getElementById("btn-curriculo").href = "https://docs.google.com/document/d/1hIwtkbGV_gow8BWMu_d1k0qA-wG2_jQUaYA58LZLvTg/edit";
+       window.location.href = "https://docs.google.com/document/d/1hIwtkbGV_gow8BWMu_d1k0qA-wG2_jQUaYA58LZLvTg/edit";
     }
     contato() {
         window.location.href = "#footer";
@@ -21,7 +19,7 @@ class Content1 extends Component {
                         <div className="dados-content1" >
                             <h1 className="titulo-dados-content1" > Desenvolvedor </h1>
                             <h1 className="titulo-dados-content1" > Web </h1>
-                            <h3 className="sobre-dados-content1" > Olá!Eu trabalho como desenvolvedor web, programador PHP e WordPress,
+                            <h3 className="sobre-dados-content1" > Olá! Eu trabalho como desenvolvedor web, programador PHP e WordPress,
             na criação de sites e sistemas web. </h3>
                         </div>
                     </div>
