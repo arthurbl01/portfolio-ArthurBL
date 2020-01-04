@@ -3,11 +3,11 @@ import './style.css';
 import projeto1 from '../../Assets/samsung.jpg';
 import projeto2 from '../../Assets/sparito.jpg';
 class Content4 extends Component {
-    projetos(){
-        window.open ("https://dribbble.com/arthurbarros4","_blank");
+    projetos() {
+        window.open("https://dribbble.com/arthurbarros4", "_blank");
     }
     render() {
-        return ( 
+        return (
             <div>
                 <section className="Content4">
                     <div className="container">
@@ -19,9 +19,11 @@ class Content4 extends Component {
                         <img alt="imagem de um projeto" className="img-projeto" src={projeto2} />
                     </div>
                     <div className="container-btn-content4">
-                        <button onClick={this.projetos} className="btn-primary-content4"><i className="fab fa-dribbble"/> Mais Projetos</button>
+                        <button onClick={this.projetos} className="btn-primary-content4"><i className="fab fa-dribbble" /> Mais Projetos</button>
                     </div>
                 </section>
+
+      
             </div>
         );
     }
