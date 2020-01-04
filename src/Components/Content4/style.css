@@ -79,4 +79,14 @@
         margin-top: 10%;
         width: 100%;
     }
+
+    .Content4 .container{
+        width: 100%;
+        text-align: center;
+    }
+    .sub-titulo-content4{
+        width: 80%;
+        margin: 0 10%;
+    }
+
 }

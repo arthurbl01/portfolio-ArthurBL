@@ -5,7 +5,9 @@ import fundo2 from '../../Assets/f2-fundo.png'
 class Content1 extends Component {
 
     curriculo() {
-        window.location.href = "https://docs.google.com/document/d/1hIwtkbGV_gow8BWMu_d1k0qA-wG2_jQUaYA58LZLvTg/edit";
+       
+        document.getElementById("btn-curriculo").target = "_blank";
+        document.getElementById("btn-curriculo").href = "https://docs.google.com/document/d/1hIwtkbGV_gow8BWMu_d1k0qA-wG2_jQUaYA58LZLvTg/edit";
     }
     contato() {
         window.location.href = "#footer";
@@ -25,7 +27,7 @@ class Content1 extends Component {
                     </div>
                     <div className="container" >
                         <div >
-                            <button className="btn-primary" onClick={this.curriculo} >
+                            <button className="btn-primary" id="btn-curriculo" onClick={this.curriculo} target="_blank">
                                 <i className="fas fa-download" > </i> CURRÍCULO
                             </button>
                             <button className="btn-secundary" onClick={this.contato} >

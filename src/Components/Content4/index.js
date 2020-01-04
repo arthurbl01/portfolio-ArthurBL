@@ -11,7 +11,7 @@ class Content4 extends Component {
             <div>
                 <section className="Content4">
                     <div className="container">
-                        <h1 className="titulo-content4">Alguns projetos</h1>
+                        <h1 className="titulo-content4">Projetos</h1>
                         <h3 className="sub-titulo-content4">Conheça alguns dos meus trabalhos recém lançados</h3>
                     </div>
                     <div className="imagens-projetos">
