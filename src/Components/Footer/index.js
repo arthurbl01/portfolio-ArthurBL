@@ -8,17 +8,17 @@ import logo from '../../Assets/logo.png'
 class Footer extends Component {
 
     whatsapp(){
-        window.location.href = 'https://api.whatsapp.com/send?phone=5588992272118&text=Ol%C3%A1!%20Fale%20comigo%20e%20tire%20suas%20d%C3%BAvidas.';
+        window.open("https://api.whatsapp.com/send?phone=5588992272118&text=Ol%C3%A1!%20Fale%20comigo%20e%20tire%20suas%20d%C3%BAvidas.", "_blank")
     }
     facebook(){
-        window.location.href = 'https://www.facebook.com/ArthurBLSonicEffects';
+        window.open("https://www.facebook.com/ArthurBLSonicEffects","_blank");
     }
     linkedin(){
-        window.location.href = 'https://www.linkedin.com/in/arthur-bl-703807170/';
+        window.open("https://www.linkedin.com/in/arthur-bl-703807170/","_blank");
     }
     render() {
         return (
-            <div>
+            <div> 
                 <section className="footer" id="footer">
                     <div className="container">
                         <h1 className="titulo-contato">Contato</h1>

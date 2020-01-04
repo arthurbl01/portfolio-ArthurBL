@@ -4,7 +4,7 @@ import projeto1 from '../../Assets/samsung.jpg';
 import projeto2 from '../../Assets/sparito.jpg';
 class Content4 extends Component {
     projetos(){
-        window.location.href = ('https://dribbble.com/arthurbarros4');
+        window.open ("https://dribbble.com/arthurbarros4","_blank");
     }
     render() {
         return ( 
