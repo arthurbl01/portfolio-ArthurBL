@@ -11,7 +11,7 @@ class index extends Component {
                     <div className="container" >
                         <div className="item-content2" > 
                             <img alt="icone de desenvolvimento front-end" className="img-item-content2" src={frontend} />
-                            <h1 className="titulo-item-content2" > Dev.Front - End </h1>
+                            <h1 className="titulo-item-content2" > Dev. Front - End </h1>
                             <h3 className="sub-titulo-item-content2" > CSS - Sass - Bootstrap - ReactJS </h3>
                         </div>
                         <div className="item-content2" >

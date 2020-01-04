@@ -5,7 +5,8 @@ import fundo2 from '../../Assets/f2-fundo.png'
 class Content1 extends Component {
 
     curriculo() {
-       window.location.href = "https://docs.google.com/document/d/1hIwtkbGV_gow8BWMu_d1k0qA-wG2_jQUaYA58LZLvTg/edit";
+  
+       window.open("https://docs.google.com/document/d/1hIwtkbGV_gow8BWMu_d1k0qA-wG2_jQUaYA58LZLvTg/edit", "_blank")
     }
     contato() {
         window.location.href = "#footer";
