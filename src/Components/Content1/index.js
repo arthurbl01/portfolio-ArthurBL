@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import './style.css';
 import fundo2 from '../../Assets/f2-fundo.png'
-
 class Content1 extends Component {
 
     curriculo() {
   
-       window.open("https://docs.google.com/document/d/1hIwtkbGV_gow8BWMu_d1k0qA-wG2_jQUaYA58LZLvTg/edit", "_blank")
+       window.open("https://drive.google.com/open?id=1uJBSaCONVA-P0TsRnWk9ufdgYSQnuA00", "_blank")
     }
     contato() {
         window.location.href = "#footer";
