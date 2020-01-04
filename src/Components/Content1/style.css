@@ -1,0 +1,137 @@
+/*FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
+body {
+    background-image: url('../../Assets/fundo.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.content1 {
+    margin-bottom: -5px;
+}
+
+.content1 .container {
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+}
+
+.dados-content1 {
+    margin-top: -15%;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin: 0;
+}
+
+.titulo-dados-content1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5.5rem;
+    font-weight: 700;
+    color: #2C3038;
+}
+
+.sobre-dados-content1 {
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.btn-primary {
+    z-index: 200;
+    margin-top: 20%;
+    background-color: #007E91;
+    border: none;
+    border-radius: 50px;
+    height: 60px;
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #FFF;
+    cursor: pointer;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    -moz-transition: all .51s;
+    -o-transition: all .51s;
+    -webkit-transition: all .51s;
+    transition: all .51s;
+}
+
+.btn-primary:hover {
+    background-color: #206981;
+    border-radius: 0px;
+}
+
+.btn-secundary {
+    background-color: transparent;
+    border: solid;
+    border-radius: 50px;
+    border-color: #BFE6DC;
+    height: 60px;
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #007E91;
+    cursor: pointer;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    -moz-transition: all .51s;
+    -o-transition: all .51s;
+    -webkit-transition: all .51s;
+    transition: all .51s;
+    margin-left: 5px;
+}
+
+.btn-secundary:hover {
+    background-color: #BFE6DC;
+    border-radius: 0px;
+}
+
+.fundo2 {
+    margin: 0 !important;
+}
+
+.p2-fundo {
+    z-index: -1;
+    margin-top: -1%;
+    width: 100%;
+}
+
+@media (max-width:900px) {
+    .titulo-dados-content1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width:500px) and  (min-width:370px) {
+    .dados-content1 {
+        margin-top: 10%;
+    }   
+    .titulo-dados-content1 {
+        font-size: 3rem;
+    }
+    .dados-content1 {
+        width: 70%;
+    }
+}
+
+@media (max-width:370px){
+    .dados-content1 {
+        margin-top: 10%;
+    }
+    .titulo-dados-content1 {
+        font-size: 2rem;
+    }
+    .dados-content1 {
+        width: 70%;
+    } 
+}
+
