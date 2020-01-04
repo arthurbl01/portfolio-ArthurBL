@@ -8,7 +8,7 @@ import logo from '../../Assets/logo.png'
 class Footer extends Component {
 
     whatsapp(){
-        window.open("https://api.whatsapp.com/send?phone=5588992272118&text=Ol%C3%A1!%20Fale%20comigo%20e%20tire%20suas%20d%C3%BAvidas.", "_blank")
+        window.open("https://api.whatsapp.com/send?phone=5588992272118&text=Ol%C3%A1!%20Tenho%20uma%20ideia.", "_blank")
     }
     facebook(){
         window.open("https://www.facebook.com/ArthurBLSonicEffects","_blank");
