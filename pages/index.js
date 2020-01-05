@@ -9,7 +9,7 @@ class Home extends Component {
     }
     curriculo() {
   
-        window.open("https://drive.google.com/open?id=1uJBSaCONVA-P0TsRnWk9ufdgYSQnuA00", "_blank")
+        window.open("https://drive.google.com/open?id=1WnnE4JLl_x1q-Vh99yDqlkCd3UByJP7B", "_blank")
      }
      contato() {
          window.location.href = "#footer";
