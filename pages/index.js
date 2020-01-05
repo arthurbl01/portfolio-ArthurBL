@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 /* CSS */
 import '../public/style.css';
 
-class index extends Component {
+class Home extends Component {
 
     projetos() {
         window.open("https://dribbble.com/arthurbarros4", "_blank");
@@ -132,4 +132,4 @@ class index extends Component {
     }
 }
 
-export default index;
+export default Home;
