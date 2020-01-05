@@ -86,7 +86,7 @@ class Home extends Component {
                         </div>
                         <div className="item-content2">
                             <img alt="icone de linguagens de programação" className="img-item-content2" src="/Assets/html-coding.png" />
-                            <h1 className="titulo-item-content2" > Programador </h1>
+                            <h1 className="titulo-item-content2" > Dev. Back - End </h1>
                             <h3 className="sub-titulo-item-content2" > PHP - JavaScript </h3>
                         </div>
                     </div>
