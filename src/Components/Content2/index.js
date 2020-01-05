@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../Content2/style.css';
+import './style.css';
 import frontend from '../../Assets/front.png';
 import uiux from '../../Assets/ux-design.png';
 import programador from '../../Assets/html-coding.png';
