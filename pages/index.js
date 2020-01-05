@@ -1,35 +1,43 @@
 import React, { Component } from 'react';
+import MetaTags from 'react-meta-tags';
 /* CSS */
 import '../public/style.css';
 
 class Home extends Component {
-    componentDidMount(){
+    componentDidMount() {
         document.title = "Arthur BL - Desenvolvedor Web";
-      }
+    }
     projetos() {
         window.open("https://dribbble.com/arthurbarros4", "_blank");
     }
     curriculo() {
-  
-        window.open("https://drive.google.com/open?id=1WnnE4JLl_x1q-Vh99yDqlkCd3UByJP7B", "_blank")
-     }
-     contato() {
-         window.location.href = "#footer";
-     }
 
-     whatsapp(){
+        window.open("https://drive.google.com/open?id=1WnnE4JLl_x1q-Vh99yDqlkCd3UByJP7B", "_blank")
+    }
+    contato() {
+        window.location.href = "#footer";
+    }
+
+    whatsapp() {
         window.open("https://api.whatsapp.com/send?phone=5588992272118&text=Ol%C3%A1!%20Tenho%20uma%20ideia.", "_blank")
     }
-    facebook(){
-        window.open("https://www.facebook.com/ArthurBLSonicEffects","_blank");
+    facebook() {
+        window.open("https://www.facebook.com/ArthurBLSonicEffects", "_blank");
     }
-    linkedin(){
-        window.open("https://www.linkedin.com/in/arthur-bl-703807170/","_blank");
+    linkedin() {
+        window.open("https://www.linkedin.com/in/arthur-bl-703807170/", "_blank");
     }
 
     render() {
         return (
             <div>
+                <MetaTags>
+                    <meta property="og:type" content="website" />
+                    <meta name="description" content="Olá! Eu trabalho como desenvolvedor web, programador PHP e WordPress, na criação de sites e sistemas web." />
+                    <meta property="og:image" content="/Assests/imagem-seo.jpg" />
+                    <meta property="og:url" content="https://arthurbl.netlify.com/" />
+                    <meta property="og:site_name" content="Arthur BL - Desenvolvedor Web" />
+                </MetaTags>
                 <section className="navbar">
                     <div className="container">
                         <div className="menu">
@@ -41,7 +49,7 @@ class Home extends Component {
 
 
                 </section>
-                
+
                 <section className="content1" >
                     <div className="container" >
                         <div className="dados-content1" >
@@ -57,7 +65,7 @@ class Home extends Component {
                                 <i className="fas fa-download" > </i> CURRÍCULO
                             </button>
                             <button className="btn-secundary" onClick={this.contato} >
-                                <i className="fas fa-paper-plane" > </i> CONTATO 
+                                <i className="fas fa-paper-plane" > </i> CONTATO
                             </button>
                         </div>
                     </div>
@@ -66,36 +74,36 @@ class Home extends Component {
 
                 <section className="content2" >
                     <div className="container" >
-                        <div className="item-content2" > 
+                        <div className="item-content2" >
                             <img alt="icone de desenvolvimento front-end" className="img-item-content2" src="/Assets/front.png" />
                             <h1 className="titulo-item-content2" > Dev. Front - End </h1>
                             <h3 className="sub-titulo-item-content2" > CSS - Sass - Bootstrap - ReactJS </h3>
                         </div>
                         <div className="item-content2" >
-                            <img alt="icone de design UI e UX" className="img-item-content2" src="/Assets/ux-design.png"/>
+                            <img alt="icone de design UI e UX" className="img-item-content2" src="/Assets/ux-design.png" />
                             <h1 className="titulo-item-content2" > Design UI & UX </h1>
-                            <h3 className="sub-titulo-item-content2" > Photoshop - Illustrator - XD </h3> 
+                            <h3 className="sub-titulo-item-content2" > Photoshop - Illustrator - XD </h3>
                         </div>
-                            <div className="item-content2">
-                                <img alt="icone de linguagens de programação" className="img-item-content2" src="/Assets/html-coding.png" />
-                                <h1 className="titulo-item-content2" > Programador </h1>
-                                <h3 className="sub-titulo-item-content2" > PHP - JavaScript </h3>
-                            </div>
-                        </div> 
-                    </section> 
+                        <div className="item-content2">
+                            <img alt="icone de linguagens de programação" className="img-item-content2" src="/Assets/html-coding.png" />
+                            <h1 className="titulo-item-content2" > Programador </h1>
+                            <h3 className="sub-titulo-item-content2" > PHP - JavaScript </h3>
+                        </div>
+                    </div>
+                </section>
 
-                    <section className="content3">
+                <section className="content3">
                     <div className="container">
                         <div className="dados">
                             <h1 className="titulo-mim-content3">Sobre mim :)</h1>
                             <h2 className="subtitulo-content3">Conheça quem você está contratando.</h2>
                             <h3 className="sobre-mim-content3">
-                            Meu nome é Arthur sou Cearense da cidade de Barbalha, 
-                            tenho 24 anos, sou casado e estudante de 
-                            Análise e desenvolvimento de sistemas pela faculdade Pitágoras. 
-                            Sou um grande amante da computação e hoje destino meus estudos e 
-                            trabalhos em desenvolvimento web com foco em Front-end e Design de interfaces. 
-                            Baixe meu currículo e conheça mais sobre mim.
+                                Meu nome é Arthur sou Cearense da cidade de Barbalha,
+                                tenho 24 anos, sou casado e estudante de
+                                Análise e desenvolvimento de sistemas pela faculdade Pitágoras.
+                                Sou um grande amante da computação e hoje destino meus estudos e
+                                trabalhos em desenvolvimento web com foco em Front-end e Design de interfaces.
+                                Baixe meu currículo e conheça mais sobre mim.
                             </h3>
                         </div>
                         <div className="img-content-3">
@@ -104,7 +112,7 @@ class Home extends Component {
                     </div>
                 </section>
 
-                
+
                 <section className="Content4">
                     <div className="container">
                         <h1 className="titulo-content4">Projetos</h1>
@@ -125,11 +133,11 @@ class Home extends Component {
                         <div className="container-icones-contato">
                             <img onClick={this.whatsapp} alt="imagem do whatsapp" className="icones-redes" src="/Assets/whatsapp.png" />
                             <img onClick={this.facebook} alt="imagem do facebook" className="icones-redes" src="/Assets/facebook.png" />
-                            <img onClick={this.linkedin}alt="imagem do linkedIn" className="icones-redes" src="/Assets/linkedin.png" />
+                            <img onClick={this.linkedin} alt="imagem do linkedIn" className="icones-redes" src="/Assets/linkedin.png" />
                         </div>
                     </div>
                 </section>
-                
+
             </div>
         );
     }
