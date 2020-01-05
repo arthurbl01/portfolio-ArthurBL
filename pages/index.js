@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 import '../public/style.css';
 
 class Home extends Component {
-
+    componentDidMount(){
+        document.title = "Arthur BL - Desenvolvedor Web";
+      }
     projetos() {
         window.open("https://dribbble.com/arthurbarros4", "_blank");
     }
