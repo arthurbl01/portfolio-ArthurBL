@@ -34,7 +34,7 @@ class Home extends Component {
                 <section className="navbar">
                     <div className="container">
                         <div className="menu">
-                            <img alt="logo arthur bl" className="logo" src="/Assets/logo.png" />
+                            <img alt="logo arthur bl" className="logo" src="/Assets/imagem-seo.jpg" />
                         </div>
                         <img alt="imagem de fundo" className="p1-fundo" src="/Assets/p1-fundo.png" />
                     </div>
