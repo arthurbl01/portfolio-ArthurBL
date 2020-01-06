@@ -32,11 +32,12 @@ class Home extends Component {
         return (
             <div>
                 <MetaTags>
-                    <meta property="og:type" content="website" />
-                    <meta name="description" content="Olá! Eu trabalho como desenvolvedor web, programador PHP e WordPress, na criação de sites e sistemas web." />
-                    <meta property="og:image" content="/Assests/imagem-seo.jpg" />
-                    <meta property="og:url" content="https://arthurbl.netlify.com/" />
-                    <meta property="og:site_name" content="Arthur BL - Desenvolvedor Web" />
+                    <meta property="og:title" content="Titulo do Post" />	
+                    <meta property="og:description" content="Descrição do Post" />	
+                    <meta property="og:type" content="website" />	
+                    <meta property="og:url" content="http://meusite.com.br" />	
+                    <meta property="og:image" content="logo_do_site.png" />	
+                    <meta property="og:site_name" content="Meu Site" />
                 </MetaTags>
                 <section className="navbar">
                     <div className="container">
