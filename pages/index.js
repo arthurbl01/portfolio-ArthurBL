@@ -31,10 +31,18 @@ class Home extends Component {
     render() {
         return (
             <div>
+                <MetaTags>
+                    <meta property="og:title" content="Titulo do Post" />	
+                    <meta property="og:description" content="Descrição do Post" />	
+                    <meta property="og:type" content="website" />	
+                    <meta property="og:url" content="http://meusite.com.br" />	
+                    <meta property="og:image" content="logo_do_site.png" />	
+                    <meta property="og:site_name" content="Meu Site" />
+                </MetaTags>
                 <section className="navbar">
                     <div className="container">
                         <div className="menu">
-                            <img alt="logo arthur bl" className="logo" src="/Assets/imagem-seo.jpg" />
+                            <img alt="logo arthur bl" className="logo" src="/Assets/logo.png" />
                         </div>
                         <img alt="imagem de fundo" className="p1-fundo" src="/Assets/p1-fundo.png" />
                     </div>
