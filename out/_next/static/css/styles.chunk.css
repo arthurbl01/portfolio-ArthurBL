@@ -13,7 +13,8 @@
 .menu {
     display: flex;
     justify-content: space-around;
-    margin: 5% 10%;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 .logo {
@@ -83,7 +84,7 @@ html {
 
 .dados-content1 {
     margin-top: -15%;
-    width: 30%;
+    width: 35%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -105,6 +106,7 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 400;
+    
 }
 
 .btn-primary {
@@ -171,6 +173,9 @@ h1 {
 @media (max-width:900px) {
     .titulo-dados-content1 {
         font-size: 4rem;
+    }
+    .dados-content1 {
+        width: 40%;
     }
 }
 
@@ -320,6 +325,8 @@ h1 {
 .sobre-mim-content3 {
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
+    text-align: justify;
+    text-justify: inter-word;
     margin-top: 5%;
     font-size: 1rem;
     font-weight: 400;
@@ -332,7 +339,7 @@ h1 {
     height: auto;
 }
 
-@media (max-width:900px) and (min-width:500px) {
+@media (max-width:1024px) and (min-width:500px) {
     .img-content-3 {
         display: none;
     }
@@ -344,10 +351,14 @@ h1 {
     }
     .sobre-mim-content3 {
         width: 100%;
+        text-align: justify;
+        text-justify: inter-word;
     }
     .titulo-mim-content3 {
+        margin-top: 10%;
         font-size: 3rem;
     }
+
 }
 
 @media (max-width: 500px){

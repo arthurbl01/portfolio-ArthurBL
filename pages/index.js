@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import MetaTags from 'react-meta-tags';
+import Head from 'next/head'
 /* CSS */
 import '../public/style.css';
 
 class Home extends Component {
-    componentDidMount() {
+   /*  componentDidMount() {
         document.title = "Arthur BL - Desenvolvedor Web";
-    }
+    }*/
+
     projetos() {
         window.open("https://dribbble.com/arthurbarros4", "_blank");
     }
@@ -31,19 +33,17 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <MetaTags>
-
+                <Head>
+                    <title>Arthur BL - Desenvolvedor Web</title>
                     <meta property="og:locale" content="pt_BR" />
                     <meta property="og:type" content="article" />
                     <meta property="og:title" content="Arthur BL - Desenvolvedor Web" />
-                    <meta property="og:description" content="Olá! Eu trabalho como desenvolvedor web, programador PHP e WordPress,
-                        na criação de sites e sistemas web." />
+                    <meta property="og:description" content="Olá! Eu trabalho como desenvolvedor web, programador PHP e WordPress, na criação de sites e sistemas web." />
                     <meta property="og:site_name" content="Arthur BL" />
+                    <meta property="og:image" content="/Assets/imagem-seo.jpg" />
+                </Head>
 
-                    <meta property="og:image"
-                        content="/Assets/imagem-seo.jpg" />
 
-                </MetaTags>
                 <section className="navbar">
                     <div className="container">
                         <div className="menu">
