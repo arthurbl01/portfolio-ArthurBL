@@ -13,11 +13,13 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
-    "start": "next start",
-    "build": "next build",
+    "export": "next export",
+    "deploy": "npm run build && npm run export",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "next"
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "serve ./out"
   },
   "eslintConfig": {
     "extends": "react-app"
