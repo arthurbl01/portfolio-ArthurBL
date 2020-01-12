@@ -1,0 +1,66 @@
+
+/*NAVBAR */
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: top;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+.titulo-navbar {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #004E75;
+    font-weight: 600;
+}
+
+.p1-fundo {
+    width: 20%;
+    height: 20%;
+}
+
+
+
+@media (max-width:1200px) and (max-width:500px){
+    .p1-fundo {
+        width: 175px;
+        height: 300px;
+    }
+}
+
+@media (max-width:500px) and (min-width:370px){
+    .logo {
+        margin-top: 15%;
+    }
+    .p1-fundo {
+        width: 30%;
+        height: 30%;
+    }
+}
+
+@media (max-width:370px){
+    .logo {
+        height: 40px;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        margin: 10% auto;
+    }
+    .p1-fundo {
+        display: none;
+    }
+}

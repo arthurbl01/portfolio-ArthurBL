@@ -1,0 +1,44 @@
+
+/* Footer */
+.footer {
+    margin-top: 10%;
+    background-color: #EDEDED;
+}
+
+.footer .container {
+    text-align: center;
+    justify-content: space-around;
+    justify-items: center;
+    padding-bottom: 2%;
+}
+
+.titulo-contato {
+    padding-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2C3038;
+}
+
+.sub-titulo-contato {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    margin-top: 1%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #2C3038;
+}
+
+.icones-redes {
+    width: 50px;
+    margin: 0.2%;
+    cursor: pointer;
+}
+
+@media (max-width:900px) {
+    .titulo-contato {
+        font-size: 1.5rem;
+    }
+}
