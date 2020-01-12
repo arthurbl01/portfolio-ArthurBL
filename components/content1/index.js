@@ -4,7 +4,7 @@ import './style.css';
 class index extends Component {
     curriculo() {
 
-        window.open("https://drive.google.com/open?id=1WnnE4JLl_x1q-Vh99yDqlkCd3UByJP7B", "_blank")
+        window.open("https://drive.google.com/open?id=1GRLCWfd6TioEL1JBYd2pB15b8HgGwljT", "_blank")
     }
     contato() {
         window.location.href = "#footer";
