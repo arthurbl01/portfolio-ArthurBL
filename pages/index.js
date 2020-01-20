@@ -19,7 +19,7 @@ class index extends Component {
                     <meta property="og:title" content="Arthur BL - Desenvolvedor Web" />
                     <meta property="og:description" content="Olá! Eu trabalho como desenvolvedor web, programador PHP e WordPress, na criação de sites e sistemas web." />
                     <meta property="og:site_name" content="Arthur BL" />
-                    <meta property="og:image" content="/Assets/imagem-seo.jpg" />
+                    <meta property="og:image" content="/static/imagem-seo.jpg" />
                 </Head>
                 <Navbar />
                 <Content1 />
